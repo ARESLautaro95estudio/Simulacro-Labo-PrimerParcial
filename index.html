@@ -1,0 +1,145 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta chatset ="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <link rel="stylesheet" type ="text/css" href ="index.css"\ >
+        <script src="index.js"  type="module" defer></script>
+        <title> SIMULACRO</title>
+
+    </head>
+    <body>
+        <header class="cabecera">
+            <div class ="barra miFelx">
+                <div class="testeo">
+                    <img src="./img/logo.svg" alt="logo principal">
+                </div>
+                <nav >
+                    <il><a> Nosotros</a></il>
+                    <il><a> Anuncios</a></il>
+                    <il><a> Contacto</a></il>
+                    <il><a> Blog</a></il>
+                </nav>
+            </div>
+            
+        </header>
+
+            <div class="GENERAL">
+                <section class="sec-formulario">
+
+                    <form class="miFelx">
+                        <input type="number" name ="id" id="id" hidden>
+
+                        <div class="div-form">
+                            <label>TITULO :</label>
+                            <input 
+                                type ="text"
+                                required
+                                name="titulo"
+                                id="titulo"
+                                placeholder="ingrese titulo..."
+                            \>
+                        </div>
+                        <LABEL> Transaccion</LABEL>
+                        <div class="div-form-rad">
+                            <label for ="Venta">Venta</label>
+                            <input 
+                            type="radio"
+                            required
+                            name="Venta"
+                            id="Venta"
+                            value="Venta"
+                            \>
+                        </div>
+                        <div class="div-form-rad">
+                            <label for ="Alquiler">Alquiler</label>
+                            <input 
+                            type="radio"
+                            required
+                            name="Alquiler"
+                            id="Alquiler"
+                            value="Alquiler"
+                            \>
+                        </div>
+                        <div class="div-form">
+                            <label>Descripcion :</label>
+                            <input 
+                                type ="text"
+                                required
+                                name="Descripcion"
+                                id="Descripcion"
+                                placeholder="ingrese una descripcion..."
+                            \>
+                        </div>
+                        <div class="div-form">
+                            <label>Precio :</label>
+                            <input 
+                                type ="Precio"
+                                required
+                                name="Precio"
+                                id="Precio"
+                                placeholder="ingrese un Precio..."
+                            \>
+                        </div>
+                        <div class="div-form">
+                            <label>Puertas :</label>
+                            <input 
+                                type ="Puertas"
+                                required
+                                name="Puertas"
+                                id="Puertas"
+                                placeholder="ingrese un Puertas..."
+                            \>
+                        </div>
+                        <div class="div-form">
+                            <label>KM :</label>
+                            <input 
+                                type ="KM"
+                                required
+                                name="KM"
+                                id="KM"
+                                placeholder="ingrese un KM..."
+                            \>
+                        </div>
+                        <div class="div-form">
+                            <label>Potencia :</label>
+                            <input 
+                                type ="Potencia"
+                                required
+                                name="Potencia"
+                                id="Potencia"
+                                placeholder="ingrese un Potencia..."
+                            \>
+                        </div>
+                        <div class="div-form">
+                            <button>Guardar</button>
+                        </div>
+                    </form>
+                    <table >
+                        <thead>
+                          <tr class="flex">
+                            <th>ID</th>
+                            <th>Titulo</th>
+                            <th>Transaccion</th>
+                            <th>Descripcion</th>
+                            <th>Precio</th>
+                            <th>Puertas</th>
+                            <th>KM</th>
+                            <th>Potencia</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                      </table>
+                </section>
+            </div>
+        <footer class="pie">
+            <a>Nosotros</a>
+            <a>Anuncio</a>
+            <a>Blog</a>
+            <a>Contacto</a>
+        </footer>
+    </body>
+</html>
